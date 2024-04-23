@@ -9,7 +9,7 @@ echo "Please enter DB password"
 read -s mysql_root_password
 
 
-dnf install mysql-serverr -y &>>$LOGFILE
+dnf install mysqlllll-server -y &>>$LOGFILE
 # VALIDATE $? "Installing MySQL Server"
 
 systemctl enable mysqld &>>$LOGFILE
